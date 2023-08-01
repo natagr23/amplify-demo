@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import {
   BrowserRouter as Router,
@@ -9,6 +8,7 @@ import {
 import Home from './pages/Home';
 import About from './pages/About';
 import PremiumPage from './pages/PremiumPage';
+import '@aws-amplify/ui-react/styles.css';
 
 function App() {
   return (
